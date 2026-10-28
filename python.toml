@@ -1,0 +1,26 @@
+[project]
+name = "dsa-lib"
+version = "0.1.0"
+description = "Своя библиотека структур данных и алгоритмов"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "dsa",
+    "dsa.linear", "dsa.searching", "dsa.heap", "dsa.sorting",
+    "dsa.hashing", "dsa.trees", "dsa.graphs", "dsa.strings",
+    "dsa.dp", "dsa.numeric",
+]
