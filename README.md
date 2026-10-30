@@ -6,3 +6,4 @@
 |---|---|---|---|---|---|
 | Линейный поиск | поиск индекса | O(n) | O(1) | `dsa/searching/linear_search.py` | ✅ |
 | Бинарный поиск | поиск индекса | O(log n) | O(1) | `dsa/searching/binary_search.py` | ✅ |
+| lower_bound / upper_bound / count | границы x | O(log n) | O(1) | `dsa/searching/bounds.py` | ✅ |
